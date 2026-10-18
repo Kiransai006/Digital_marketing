@@ -1,0 +1,9 @@
+services:
+  digital-marketing:
+    image: kiransai006/digimarketing:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
