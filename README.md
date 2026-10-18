@@ -24,7 +24,7 @@ Requires Docker Desktop with Docker Compose. Build and start the app locally:
 docker compose up --build
 ```
 
-Open [http://localhost:8080](http://localhost:8080). Stop it with `Ctrl+C`, or run `docker compose down` in another terminal.
+Open [http://localhost:8081](http://localhost:8081). Stop it with `Ctrl+C`, or run `docker compose down` in another terminal.
 
 ## Build and publish the Docker image
 
